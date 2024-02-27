@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	bmock "github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	bmock "github.com/diwuwudi123/benthos/v4/internal/manager/mock"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/diwuwudi123/benthos/v4/public/components/pure"
 )
 
 func TestReadUntilErrs(t *testing.T) {

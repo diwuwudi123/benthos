@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
 )
 
 func dynamicArrayParser(pCtx Context) Func {

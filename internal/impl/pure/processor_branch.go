@@ -10,15 +10,15 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/tracing"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/mapping"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/component/metrics"
+	"github.com/diwuwudi123/benthos/v4/internal/component/processor"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/log"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/tracing"
 )
 
 var branchFields = docs.FieldSpecs{

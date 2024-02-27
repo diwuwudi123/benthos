@@ -9,11 +9,11 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/serverless"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/internal/config"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath/ifs"
+	"github.com/diwuwudi123/benthos/v4/internal/serverless"
 )
 
 var handler *serverless.Handler

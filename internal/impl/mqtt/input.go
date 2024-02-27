@@ -10,15 +10,15 @@ import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	gonanoid "github.com/matoous/go-nanoid/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/input/processors"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	mqttconf "github.com/benthosdev/benthos/v4/internal/impl/mqtt/shared"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/tls"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input/processors"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
+	mqttconf "github.com/diwuwudi123/benthos/v4/internal/impl/mqtt/shared"
+	"github.com/diwuwudi123/benthos/v4/internal/log"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/tls"
 )
 
 func init() {

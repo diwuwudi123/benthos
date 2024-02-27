@@ -7,8 +7,8 @@ import (
 
 	"github.com/apache/pulsar-client-go/pulsar"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func init() {

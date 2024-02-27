@@ -11,9 +11,9 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/batch/policy/batchconfig"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/batch/policy"
+	"github.com/diwuwudi123/benthos/v4/internal/batch/policy/batchconfig"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 type closureOffsetTracker struct {

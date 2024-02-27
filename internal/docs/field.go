@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/diwuwudi123/benthos/v4/public/bloblang"
 )
 
 // FieldType represents a field type.

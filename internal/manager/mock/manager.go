@@ -7,19 +7,19 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/buffer"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/internal/component/buffer"
+	"github.com/diwuwudi123/benthos/v4/internal/component/cache"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	"github.com/diwuwudi123/benthos/v4/internal/component/metrics"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/internal/component/processor"
+	"github.com/diwuwudi123/benthos/v4/internal/component/ratelimit"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath/ifs"
+	"github.com/diwuwudi123/benthos/v4/internal/log"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 // Manager provides a mock benthos manager that components can use to test

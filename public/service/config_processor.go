@@ -7,8 +7,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/component/processor"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
 )
 
 // NewProcessorField defines a new processor field, it is then possible to

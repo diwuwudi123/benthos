@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/youmark/pkcs8"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath/ifs"
 )
 
 func createCertificates() (certPem, keyPem []byte) {

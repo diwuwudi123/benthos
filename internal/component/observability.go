@@ -3,8 +3,8 @@ package component
 import (
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/diwuwudi123/benthos/v4/internal/component/metrics"
+	"github.com/diwuwudi123/benthos/v4/internal/log"
 )
 
 // Observability is an interface implemented by components that provide a range

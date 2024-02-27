@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/shutdown"
 )
 
 type tracedInput struct {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/batch/policy"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 // Setup is run at the beginning of a new session, before ConsumeClaim.

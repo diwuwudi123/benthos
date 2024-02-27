@@ -1,6 +1,6 @@
 package bloblang
 
-import "github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
+import "github.com/diwuwudi123/benthos/v4/internal/bloblang/mapping"
 
 type executorUnwrapper struct {
 	child *mapping.Executor

@@ -1,9 +1,9 @@
 package plugins
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/parser"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 // Register adds any native Bloblang methods and functions to the global sets

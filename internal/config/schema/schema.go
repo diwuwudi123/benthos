@@ -1,10 +1,10 @@
 package schema
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/config"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
 )
 
 // Full represents the entirety of the Benthos instances configuration spec and

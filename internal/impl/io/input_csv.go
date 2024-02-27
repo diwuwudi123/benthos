@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 var (

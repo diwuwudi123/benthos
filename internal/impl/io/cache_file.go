@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath/ifs"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func fileCacheConfig() *service.ConfigSpec {

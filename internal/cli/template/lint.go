@@ -7,10 +7,10 @@ import (
 	"github.com/fatih/color"
 	"github.com/urfave/cli/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	ifilepath "github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/template"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
+	ifilepath "github.com/diwuwudi123/benthos/v4/internal/filepath"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath/ifs"
+	"github.com/diwuwudi123/benthos/v4/internal/template"
 )
 
 var (

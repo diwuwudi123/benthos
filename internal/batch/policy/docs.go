@@ -1,6 +1,6 @@
 package policy
 
-import "github.com/benthosdev/benthos/v4/internal/docs"
+import "github.com/diwuwudi123/benthos/v4/internal/docs"
 
 // FieldSpec returns a spec for a common batching field.
 func FieldSpec() docs.FieldSpec {

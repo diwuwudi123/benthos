@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/benthosdev/benthos/v4/internal/autoretry"
-	"github.com/benthosdev/benthos/v4/internal/batch"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/autoretry"
+	"github.com/diwuwudi123/benthos/v4/internal/batch"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 // AutoRetryNacksBatched wraps a batched input implementation with a component

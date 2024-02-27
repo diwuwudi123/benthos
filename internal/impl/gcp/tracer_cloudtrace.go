@@ -11,9 +11,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/tracer"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/component/tracer"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
 )
 
 var _ gcptrace.Exporter

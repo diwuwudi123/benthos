@@ -12,8 +12,8 @@ import (
 	"github.com/gofrs/uuid"
 	"go.uber.org/multierr"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 const (

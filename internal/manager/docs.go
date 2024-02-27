@@ -3,7 +3,7 @@ package manager
 import (
 	"github.com/Jeffail/gabs/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
 )
 
 func lintResource(ctx docs.LintContext, line, col int, v any) []docs.Lint {

@@ -7,7 +7,7 @@ import (
 	"github.com/bwmarrin/discordgo"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func outputConfig() *service.ConfigSpec {

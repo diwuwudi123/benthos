@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/component/cache"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/internal/component/processor"
+	"github.com/diwuwudi123/benthos/v4/internal/component/ratelimit"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/manager"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func testSanitConf() docs.SanitiseConfig {

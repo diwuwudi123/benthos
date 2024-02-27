@@ -8,7 +8,7 @@ import (
 
 	lruv2 "github.com/hashicorp/golang-lru/v2"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 const (

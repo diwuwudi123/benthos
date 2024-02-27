@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/mapping"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/public/bloblang"
 )
 
 // MessageHandlerFunc is a function signature defining a component that consumes

@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/input/batcher"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input/batcher"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 // AckFunc is a common function returned by inputs that must be called once for

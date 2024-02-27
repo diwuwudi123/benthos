@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
-	strmmgr "github.com/benthosdev/benthos/v4/internal/stream/manager"
+	"github.com/diwuwudi123/benthos/v4/internal/config"
+	"github.com/diwuwudi123/benthos/v4/internal/manager"
+	"github.com/diwuwudi123/benthos/v4/internal/stream"
+	strmmgr "github.com/diwuwudi123/benthos/v4/internal/stream/manager"
 
 	"github.com/urfave/cli/v2"
 )

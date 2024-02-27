@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/httpclient"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/httpclient"
+	"github.com/diwuwudi123/benthos/v4/internal/shutdown"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func schemaRegistryEncoderConfig() *service.ConfigSpec {

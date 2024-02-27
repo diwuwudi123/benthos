@@ -8,8 +8,8 @@ import (
 
 	"github.com/beanstalkd/go-beanstalk"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func beanstalkdInputConfig() *service.ConfigSpec {

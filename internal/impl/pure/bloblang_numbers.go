@@ -3,8 +3,8 @@ package pure
 import (
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/public/bloblang"
 )
 
 func registerIntMethod(name, longName, exampleIn, exampleOut string, method func(input any) (any, error)) {

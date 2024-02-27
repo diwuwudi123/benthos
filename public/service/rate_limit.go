@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
+	"github.com/diwuwudi123/benthos/v4/internal/component/metrics"
+	"github.com/diwuwudi123/benthos/v4/internal/component/ratelimit"
 )
 
 // RateLimit is an interface implemented by Benthos rate limits.

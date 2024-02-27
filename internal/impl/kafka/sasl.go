@@ -7,11 +7,11 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	ksasl "github.com/benthosdev/benthos/v4/internal/impl/kafka/sasl"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/component/cache"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/aws/config"
+	ksasl "github.com/diwuwudi123/benthos/v4/internal/impl/kafka/sasl"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 
 	"github.com/twmb/franz-go/pkg/sasl"
 	"github.com/twmb/franz-go/pkg/sasl/oauth"

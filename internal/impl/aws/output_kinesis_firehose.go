@@ -11,10 +11,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/firehose/firehoseiface"
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/aws/config"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/pure"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 const (

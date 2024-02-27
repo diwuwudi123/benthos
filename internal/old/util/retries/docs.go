@@ -1,6 +1,6 @@
 package retries
 
-import "github.com/benthosdev/benthos/v4/internal/docs"
+import "github.com/diwuwudi123/benthos/v4/internal/docs"
 
 // FieldSpecs returns documentation specs for retry fields.
 func FieldSpecs() docs.FieldSpecs {

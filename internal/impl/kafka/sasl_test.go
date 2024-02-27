@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/kafka"
-	"github.com/benthosdev/benthos/v4/internal/impl/kafka/sasl"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/kafka"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/kafka/sasl"
+	"github.com/diwuwudi123/benthos/v4/internal/manager"
+	"github.com/diwuwudi123/benthos/v4/internal/manager/mock"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/diwuwudi123/benthos/v4/public/components/pure"
 )
 
 func TestApplyPlaintext(t *testing.T) {

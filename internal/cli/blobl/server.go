@@ -20,9 +20,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/parser"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath/ifs"
 
 	_ "embed"
 )

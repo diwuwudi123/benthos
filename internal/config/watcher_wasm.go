@@ -5,7 +5,7 @@ package config
 import (
 	"errors"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
 )
 
 // BeginFileWatching does nothing in WASM builds as it is not supported. Sorry!

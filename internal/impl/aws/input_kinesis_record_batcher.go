@@ -9,9 +9,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/kinesis"
 
-	"github.com/benthosdev/benthos/v4/internal/checkpoint"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/checkpoint"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 type awsKinesisRecordBatcher struct {

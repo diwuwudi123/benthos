@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/batch"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/batch"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func TestArchiveBadAlgo(t *testing.T) {

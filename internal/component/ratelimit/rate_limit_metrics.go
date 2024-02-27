@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
+	"github.com/diwuwudi123/benthos/v4/internal/component/metrics"
 )
 
 type metricsRateLimit struct {

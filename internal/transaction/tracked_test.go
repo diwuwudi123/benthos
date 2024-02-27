@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/benthosdev/benthos/v4/internal/batch"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/batch"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 func TestTaggingErrorsSinglePart(t *testing.T) {

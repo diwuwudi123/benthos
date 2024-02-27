@@ -3,7 +3,7 @@ package processor
 import (
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
 )
 
 // Config is the all encompassing configuration struct for all processor types.

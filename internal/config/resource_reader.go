@@ -12,16 +12,16 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	tdocs "github.com/benthosdev/benthos/v4/internal/cli/test/docs"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	ifilepath "github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/manager"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	tdocs "github.com/diwuwudi123/benthos/v4/internal/cli/test/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/component/cache"
+	"github.com/diwuwudi123/benthos/v4/internal/component/input"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/internal/component/processor"
+	"github.com/diwuwudi123/benthos/v4/internal/component/ratelimit"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
+	ifilepath "github.com/diwuwudi123/benthos/v4/internal/filepath"
+	"github.com/diwuwudi123/benthos/v4/internal/manager"
 )
 
 // Keeps track of which resource file provided a given resource type, this is

@@ -10,5 +10,5 @@ package pure
 
 import (
 	// Import only pure packages.
-	_ "github.com/benthosdev/benthos/v4/internal/impl/pure"
+	_ "github.com/diwuwudi123/benthos/v4/internal/impl/pure"
 )

@@ -10,8 +10,8 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/benthosdev/benthos/v4/internal/config/schema"
-	"github.com/benthosdev/benthos/v4/internal/cuegen"
+	"github.com/diwuwudi123/benthos/v4/internal/config/schema"
+	"github.com/diwuwudi123/benthos/v4/internal/cuegen"
 )
 
 func listCliCommand() *cli.Command {

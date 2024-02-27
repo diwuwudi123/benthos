@@ -10,8 +10,8 @@ import (
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/public/bloblang"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 type bigQuerySelectProcessorConfig struct {

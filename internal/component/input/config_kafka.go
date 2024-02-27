@@ -1,9 +1,9 @@
 package input
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/batch/policy/batchconfig"
-	"github.com/benthosdev/benthos/v4/internal/impl/kafka/sasl"
-	btls "github.com/benthosdev/benthos/v4/internal/tls"
+	"github.com/diwuwudi123/benthos/v4/internal/batch/policy/batchconfig"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/kafka/sasl"
+	btls "github.com/diwuwudi123/benthos/v4/internal/tls"
 )
 
 // KafkaBalancedGroupConfig contains config fields for Kafka consumer groups.

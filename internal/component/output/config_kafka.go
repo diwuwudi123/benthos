@@ -1,11 +1,11 @@
 package output
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/batch/policy/batchconfig"
-	"github.com/benthosdev/benthos/v4/internal/impl/kafka/sasl"
-	"github.com/benthosdev/benthos/v4/internal/metadata"
-	"github.com/benthosdev/benthos/v4/internal/old/util/retries"
-	btls "github.com/benthosdev/benthos/v4/internal/tls"
+	"github.com/diwuwudi123/benthos/v4/internal/batch/policy/batchconfig"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/kafka/sasl"
+	"github.com/diwuwudi123/benthos/v4/internal/metadata"
+	"github.com/diwuwudi123/benthos/v4/internal/old/util/retries"
+	btls "github.com/diwuwudi123/benthos/v4/internal/tls"
 )
 
 // KafkaConfig contains configuration fields for the Kafka output type.

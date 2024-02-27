@@ -10,7 +10,7 @@ import (
 
 	"github.com/linkedin/goavro/v2"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func avroConfigSpec() *service.ConfigSpec {

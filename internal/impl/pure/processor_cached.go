@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/public/bloblang"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func newCachedProcessorConfigSpec() *service.ConfigSpec {

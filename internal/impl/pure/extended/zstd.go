@@ -6,7 +6,7 @@ import (
 
 	"github.com/klauspost/compress/zstd"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/pure"
 )
 
 var _ = pure.AddCompressFunc("zstd", func(level int, b []byte) ([]byte, error) {

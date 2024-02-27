@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/diwuwudi123/benthos/v4/internal/log"
 
 	"go.uber.org/multierr"
 )

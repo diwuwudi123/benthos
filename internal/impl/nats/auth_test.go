@@ -8,8 +8,8 @@ import (
 	"github.com/nats-io/nkeys"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/nats/auth"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/nats/auth"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 const (

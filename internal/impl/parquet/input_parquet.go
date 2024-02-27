@@ -11,8 +11,8 @@ import (
 
 	"github.com/segmentio/parquet-go"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/filepath"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func parquetInputConfig() *service.ConfigSpec {

@@ -14,8 +14,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb/expression"
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/aws/config"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func dynCacheConfig() *service.ConfigSpec {

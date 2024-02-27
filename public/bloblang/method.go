@@ -3,7 +3,7 @@ package bloblang
 import (
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/diwuwudi123/benthos/v4/internal/bloblang/query"
 )
 
 // Method defines a Bloblang function that executes on a value. Arguments are

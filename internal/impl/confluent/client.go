@@ -12,8 +12,8 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/benthosdev/benthos/v4/internal/httpclient"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/httpclient"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 type schemaRegistryClient struct {

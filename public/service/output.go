@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	ioutput "github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/component"
+	ioutput "github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 )
 
 // Output is an interface implemented by Benthos outputs that support single

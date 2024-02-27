@@ -8,7 +8,7 @@ import (
 
 	"zvelo.io/ttlru"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 const (

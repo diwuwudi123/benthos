@@ -1,7 +1,7 @@
 package sasl
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/diwuwudi123/benthos/v4/internal/docs"
 )
 
 // Config contains configuration for SASL based authentication.

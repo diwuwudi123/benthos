@@ -8,8 +8,8 @@ import (
 
 	"github.com/colinmarc/hdfs"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 const (

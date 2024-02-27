@@ -6,9 +6,9 @@ import (
 	"github.com/olivere/elastic/v7"
 	aws "github.com/olivere/elastic/v7/aws/v4"
 
-	baws "github.com/benthosdev/benthos/v4/internal/impl/aws"
-	"github.com/benthosdev/benthos/v4/internal/impl/elasticsearch"
-	"github.com/benthosdev/benthos/v4/public/service"
+	baws "github.com/diwuwudi123/benthos/v4/internal/impl/aws"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/elasticsearch"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func init() {
@@ -26,7 +26,7 @@ func init() {
 		if tsess.Config.Region != nil {
 			region = *tsess.Config.Region
 		} else {
-			return nil, errors.New("unable to detect target AWS region, if you encounter this error please report it via: https://github.com/benthosdev/benthos/issues/new")
+			return nil, errors.New("unable to detect target AWS region, if you encounter this error please report it via: https://github.com/diwuwudi123/benthos/issues/new")
 		}
 
 		signingClient := aws.NewV4SigningClient(tsess.Config.Credentials, region)

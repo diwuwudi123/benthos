@@ -1,6 +1,6 @@
 package output
 
-import "github.com/benthosdev/benthos/v4/internal/docs"
+import "github.com/diwuwudi123/benthos/v4/internal/docs"
 
 var docsAsync = `
 This output benefits from sending multiple messages in flight in parallel for

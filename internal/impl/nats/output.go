@@ -10,8 +10,8 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/nats/auth"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/diwuwudi123/benthos/v4/internal/impl/nats/auth"
+	"github.com/diwuwudi123/benthos/v4/public/service"
 )
 
 func natsOutputConfig() *service.ConfigSpec {

@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	btls "github.com/benthosdev/benthos/v4/internal/tls"
+	btls "github.com/diwuwudi123/benthos/v4/internal/tls"
 )
 
 // InfluxDBConfig is config for the influx metrics type.

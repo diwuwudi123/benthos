@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	bmock "github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/diwuwudi123/benthos/v4/internal/component/output"
+	bmock "github.com/diwuwudi123/benthos/v4/internal/manager/mock"
+	"github.com/diwuwudi123/benthos/v4/internal/message"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/pure"
+	_ "github.com/diwuwudi123/benthos/v4/internal/impl/pure"
 )
 
 func TestDynamicOutputAPI(t *testing.T) {

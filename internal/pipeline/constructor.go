@@ -3,8 +3,8 @@ package pipeline
 import (
 	"strconv"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
+	"github.com/diwuwudi123/benthos/v4/internal/bundle"
+	"github.com/diwuwudi123/benthos/v4/internal/component/processor"
 )
 
 // Config is a configuration struct for creating parallel processing pipelines.
