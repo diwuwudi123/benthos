@@ -71,7 +71,7 @@ func (k *kafkaReader) ConsumeClaim(sess sarama.ConsumerGroupSession, claim saram
 			if !open {
 				return nil
 			}
-			k.log.Debugf("Consuming data from topic '%v' partition '%v' offset '%v' value '%v'\n", data.Topic, data.Partition, data.Offset, data.Value)
+			k.log.Debugf("Consuming data from cg topic '%v' partition '%v' offset '%v' value '%v'\n", data.Topic, data.Partition, data.Offset, string(data.Value))
 
 			latestOffset = data.Offset
 			part := dataToPart(claim.HighWaterMarkOffset(), data, k.conf.MultiHeader)

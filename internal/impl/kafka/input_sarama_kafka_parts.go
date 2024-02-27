@@ -73,7 +73,7 @@ partMsgLoop:
 			if !open {
 				break partMsgLoop
 			}
-			k.log.Debugf("Consuming data from topic '%v' partition '%v' offset '%v' value '%v'\n", data.Topic, data.Partition, data.Offset, data.Value)
+			k.log.Debugf("Consuming data from part topic '%v' partition '%v' offset '%v' value '%v'\n", data.Topic, data.Partition, data.Offset, string(data.Value))
 
 			latestOffset = data.Offset
 			part := dataToPart(consumer.HighWaterMarkOffset(), data, k.conf.MultiHeader)
