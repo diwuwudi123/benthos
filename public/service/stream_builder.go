@@ -118,11 +118,28 @@ type PrintLogger interface {
 	Println(v ...any)
 }
 
+// Logger level constants.
+type LogLevel int
+
+const (
+	LogOff   LogLevel = 0
+	LogFatal LogLevel = 1
+	LogError LogLevel = 2
+	LogWarn  LogLevel = 3
+	LogInfo  LogLevel = 4
+	LogDebug LogLevel = 5
+	LogTrace LogLevel = 6
+	LogAll   LogLevel = 7
+)
+
 // SetPrintLogger sets a custom logger supporting a simple Print based interface
 // to be used by stream components. This custom logger will override any logging
 // fields set via config.
 func (s *StreamBuilder) SetPrintLogger(l PrintLogger) {
 	s.customLogger = log.Wrap(l)
+}
+func (s *StreamBuilder) SetPrintLoggerWithLevel(l PrintLogger, level LogLevel) {
+	s.customLogger = log.WrapAtLevel(l, int(level))
 }
 
 // HTTPMultiplexer is an interface supported by most HTTP multiplexers.
