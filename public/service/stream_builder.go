@@ -114,8 +114,19 @@ func (s *StreamBuilder) SetThreads(n int) {
 
 // PrintLogger is a simple Print based interface implemented by custom loggers.
 type PrintLogger interface {
-	Printf(format string, v ...any)
-	Println(v ...any)
+	Fatalf(format string, v ...any)
+	Errorf(format string, v ...any)
+	Warnf(format string, v ...any)
+	Infof(format string, v ...any)
+	Debugf(format string, v ...any)
+	Tracef(format string, v ...any)
+
+	Fatal(message ...any)
+	Error(message ...any)
+	Warn(message ...any)
+	Info(message ...any)
+	Debug(message ...any)
+	Trace(message ...any)
 }
 
 // Logger level constants.

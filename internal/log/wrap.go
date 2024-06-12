@@ -2,8 +2,19 @@ package log
 
 // PrintFormatter is an interface implemented by standard loggers.
 type PrintFormatter interface {
-	Printf(format string, v ...any)
-	Println(v ...any)
+	Fatalf(format string, v ...any)
+	Errorf(format string, v ...any)
+	Warnf(format string, v ...any)
+	Infof(format string, v ...any)
+	Debugf(format string, v ...any)
+	Tracef(format string, v ...any)
+
+	Fatal(message ...any)
+	Error(message ...any)
+	Warn(message ...any)
+	Info(message ...any)
+	Debug(message ...any)
+	Trace(message ...any)
 }
 
 //------------------------------------------------------------------------------
@@ -59,42 +70,42 @@ func (l *wrapped) With(keyValues ...any) Modular {
 // Fatalf prints a fatal message to the console. Does NOT cause panic.
 func (l *wrapped) Fatalf(format string, v ...any) {
 	if LogFatal <= l.level {
-		l.pf.Printf(format, v...)
+		l.pf.Fatalf(format, v...)
 	}
 }
 
 // Errorf prints an error message to the console.
 func (l *wrapped) Errorf(format string, v ...any) {
 	if LogError <= l.level {
-		l.pf.Printf(format, v...)
+		l.pf.Errorf(format, v...)
 	}
 }
 
 // Warnf prints a warning message to the console.
 func (l *wrapped) Warnf(format string, v ...any) {
 	if LogWarn <= l.level {
-		l.pf.Printf(format, v...)
+		l.pf.Warnf(format, v...)
 	}
 }
 
 // Infof prints an information message to the console.
 func (l *wrapped) Infof(format string, v ...any) {
 	if LogInfo <= l.level {
-		l.pf.Printf(format, v...)
+		l.pf.Infof(format, v...)
 	}
 }
 
 // Debugf prints a debug message to the console.
 func (l *wrapped) Debugf(format string, v ...any) {
 	if LogDebug <= l.level {
-		l.pf.Printf(format, v...)
+		l.pf.Debugf(format, v...)
 	}
 }
 
 // Tracef prints a trace message to the console.
 func (l *wrapped) Tracef(format string, v ...any) {
 	if LogTrace <= l.level {
-		l.pf.Printf(format, v...)
+		l.pf.Tracef(format, v...)
 	}
 }
 
@@ -103,41 +114,41 @@ func (l *wrapped) Tracef(format string, v ...any) {
 // Fatalln prints a fatal message to the console. Does NOT cause panic.
 func (l *wrapped) Fatalln(message string) {
 	if LogFatal <= l.level {
-		l.pf.Println(message)
+		l.pf.Fatal(message)
 	}
 }
 
 // Errorln prints an error message to the console.
 func (l *wrapped) Errorln(message string) {
 	if LogError <= l.level {
-		l.pf.Println(message)
+		l.pf.Error(message)
 	}
 }
 
 // Warnln prints a warning message to the console.
 func (l *wrapped) Warnln(message string) {
 	if LogWarn <= l.level {
-		l.pf.Println(message)
+		l.pf.Warn(message)
 	}
 }
 
 // Infoln prints an information message to the console.
 func (l *wrapped) Infoln(message string) {
 	if LogInfo <= l.level {
-		l.pf.Println(message)
+		l.pf.Info(message)
 	}
 }
 
 // Debugln prints a debug message to the console.
 func (l *wrapped) Debugln(message string) {
 	if LogDebug <= l.level {
-		l.pf.Println(message)
+		l.pf.Debug(message)
 	}
 }
 
 // Traceln prints a trace message to the console.
 func (l *wrapped) Traceln(message string) {
 	if LogTrace <= l.level {
-		l.pf.Println(message)
+		l.pf.Trace(message)
 	}
 }
